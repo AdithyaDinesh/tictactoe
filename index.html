@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<title>tictactoe</title>
+	<link rel="stylesheet" type="text/css" href="styles/style2.css">
+	<script src="styles/script2.js"></script>
+</head>
+<style type="text/css">
+
+</style>
+<body>
+		<header>
+		<h1>TIC-TAC-TOE</h1>
+<input type="button" class="button" id="clr" style="height: auto; width: auto;" value="Reset" onclick="clr()">
+
+<input type="button" class="button" style="width: auto; font-size: 30px; display: inline;float: right;" id="demo" disabled=""> 
+	</header>
+	<main>
+			<hr id="c1-3" class="cross cross1-3">
+			<hr id="c1-7" class="cross cross1-7">
+			<hr id="c1-9" class="cross cross1-9">
+			<hr id="c2-8" class="cross cross2-8">
+			<hr id="c3-9" class="cross cross3-9">
+			<hr id="c3-7" class="cross cross3-7">
+			<hr id="c7-9" class="cross cross7-9">
+			<hr id="c4-6" class="cross cross4-6">
+<table>
+	<tr>
+		<td class="cell"><input type="button" class="button" onclick="clicked(this)" id="1" value=" "></td>
+		<td><input type="button" class="button" onclick="clicked(this)"  value=" " id="2"></td>
+		<td><input type="button" class="button" onclick="clicked(this)"  value=" " id="3"></td>
+	</tr>
+	<tr>
+		<td class="cell"><input type="button" onclick="clicked(this)"  class="button" value=" " id="4"></td>
+		<td><input type="button" class="button" onclick="clicked(this)"  value=" " id="5"></td>
+		<td><input type="button" class="button" onclick="clicked(this)"  value=" " id="6"></td>
+	</tr>
+	<tr>
+		<td class="cell cell1"><input type="button" onclick="clicked(this)"  class="button" value=" " id="7"></td>
+		<td class="cell1"><input type="button" onclick="clicked(this)"  class="button" value=" " id="8"></td>
+		<td class="cell1"><input type="button" onclick="clicked(this)"  class="button" value=" " id="9"></td>
+	</tr>
+	</table>
+	</main>
+	</body>
+</html>
